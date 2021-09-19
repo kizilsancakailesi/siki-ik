@@ -10,21 +10,21 @@ async def start(_, message: Message):
     await message.reply_text(
         text=f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+I can play music in your group's voice call. Developed by [Jason](https://t.me/Wistkral).
 
 Add me And @MusicPlugin to your group and play music freely!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true")
+            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/MissRoseMusic_Bot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/"),
-            InlineKeyboardButton("Channel 📣", url="https://t.me/GROUPMUSICNEWS")
+            InlineKeyboardButton("💬 Group", url="https://t.me/MissRoseSupportTr"),
+            InlineKeyboardButton("Channel 📣", url="https://t.me/MarieNews")
             ],[
-            InlineKeyboardButton("🎛 Commands", url="https://t.me/InfinityBOTs_Support"),
-            InlineKeyboardButton("About👨🏻‍🎓", url="https://t.me/Infinity_BOTs")
+            InlineKeyboardButton("🎛 Commands", url="https://t.me/MissRoseSupportTr"),
+            InlineKeyboardButton("About👨🏻‍🎓", url="https://t.me/MissRoseSupportTr")
             ],[
-            InlineKeyboardButton("🌐 Website 🌐", url="https://t.ME/")
+            InlineKeyboardButton("🌐 Website 🌐", url="https://t.ME/missRose_bot")
             ]]
         ),
         disable_web_page_preview=True
@@ -32,12 +32,12 @@ Add me And @MusicPlugin to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Group Music Player Online ✅**""",
+      await message.reply_text("""**Rose Music Player Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Group", url="https://t.me/"),
-                    InlineKeyboardButton("Channel", url="httPS://T.ME/")
+                    InlineKeyboardButton("Group", url="https://t.me/MissRoseSupportTr"),
+                    InlineKeyboardButton("Channel", url="https://t.me/MissRoseSupportTr")
                 ]                
             ]
         )
@@ -52,8 +52,8 @@ async def new_chat(client, message)
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎛Commands", url="https://t.me/"),
-                    InlineKeyboardButton("Channel📣", url="httPS://T.ME/")
+                    InlineKeyboardButton("🎛Commands", url="https://t.me/MissRoseSupportTr"),
+                    InlineKeyboardButton("Channel📣", url="https://t.me/MissRoseSupportTr")
                 ]                
             ]
         )
